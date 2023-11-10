@@ -1,0 +1,51 @@
+h1, p, body {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-color: red;
+}
+
+.lichaam {
+  background: white;
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+}
+
+.wrap {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-family: "Great Vibes", cursive;
+  background-color: white;
+  width: 8rem;
+  height: 8rem;
+  margin: 0;
+  font-weight: 500;
+  font-size: 2rem;
+  z-index: 2;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+@use 'mixin.scss';
+@use 'components.scss';
+@use 'font.scss';
+
+h1 {
+    @include mixin.title;
+    @extend %center;
+    font-family: font.$handwriting;
+    font-size: 3rem;
+}

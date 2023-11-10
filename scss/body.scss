@@ -1,0 +1,6 @@
+@use 'components.scss';
+
+body {
+    background-color: red;
+    @extend %center;
+}
